@@ -1,0 +1,8 @@
+Git command
+
+git add.
+git status # check git status: my branch
+
+git commit -m "msg"
+git push [origin] [branch]
+# I use origin & main
