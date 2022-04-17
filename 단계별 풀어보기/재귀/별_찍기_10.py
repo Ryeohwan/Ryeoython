@@ -1,7 +1,9 @@
 import sys
 
 n = int(sys.stdin.readline())
-star = ''
+star = []
+star_dust = ['***', '* *', '***']
+add = '*'
 # count = n // 3
 # check = 0
 # add = '*'
@@ -26,12 +28,24 @@ star = ''
 #     else:
 #         make_star(count,star,check,add,blank)
 
+# 012 3 5 678 012345678 9 11
+
 # make_star(count,star,check,add,blank)
 # I have to use ['***', '* *', '***']
-def make_star(n,star):
+def make_star(n,star,add):
+    count = 0
     for _ in range(n*n):
-        star += '*'
-    print(star)
-    
-make_star(n,star)
+        count += 1
+        if count % n == 0:
+            if count != n*n:
+                star.append(f'{add}\n')
+            else:
+                star.append(add)
+        else: # I have to make blank in this else
+            star.append(add)
+    result = ''.join(star)
+    print(result)
+make_star(n,star,add)
+# In the middle, They got all \n and ' '
+# I'll use count for \n
 
