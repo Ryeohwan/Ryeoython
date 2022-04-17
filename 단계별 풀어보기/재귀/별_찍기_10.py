@@ -2,31 +2,7 @@ import sys
 
 n = int(sys.stdin.readline())
 star = []
-star_dust = ['***', '* *', '***']
 add = '*'
-# count = n // 3
-# check = 0
-# add = '*'
-# blank = ' '
-# def make_star(count,star,check,add,blank):
-#     for i in range(9):
-#         if i == 4:
-#             star += blank
-#         elif i == 3 or i == 6:
-#             star += '\n'
-#             star += add
-#         else:
-#             star += add
-#     print(f'star:\n{star}')
-#     print(f'add:\n{add}')
-#     print(f'blank:\n{blank}')
-#     add = star
-#     blank = ' ' * len(add)
-#     check += 1
-#     if check == count:
-#         print(f'final:\n{star}')
-#     else:
-#         make_star(count,star,check,add,blank)
 
 # 012 3 5 678 012345678 9 11
 
@@ -43,9 +19,16 @@ def make_star(n,star,add):
                 star.append(add)
         else: # I have to make blank in this else
             star.append(add)
+        add = ''.join(star)
     result = ''.join(star)
     print(result)
 make_star(n,star,add)
 # In the middle, They got all \n and ' '
 # I'll use count for \n
 
+# 한글로 적어둬야겠다. 
+# 내 생각은 그렇다.
+# 먼저 그러니까 입력값 3짜리 별을 미리 만들어둔다.
+# 그리고 n값이 3보다 크다면 재귀를 통해서 
+# add라는 것에 join 연산으로 집어넣어서 합쳐주려고 
+# 한다.
