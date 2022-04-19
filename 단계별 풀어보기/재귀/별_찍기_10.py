@@ -22,20 +22,36 @@ star = ['***','* *','***']
 # add라는 것에 join 연산으로 집어넣어서 합쳐준다.
 # 그냥 2차원 배열을 사용해보아도 된다.
 
-def make_star(n,star):
-# When -> after def is describe return value
-    add = []
-    if n == 3:
-        return star
-    else:
-        for i in star:
-            add.append(i*3) # 무조건 3배씩 늘어나게 되는구나
-        for i in star: # 각 줄당 for 문을 이용하여 따로 개행을 쓰지 않아도 됨
-            add.append(i + ' ' * len(star) + i)
-        for i in star:
-            add.append(i * 3)
-        return make_star(n//3, add)
+# recursion
+# def make_star(n,star):
+# # When -> after def is describe return value
+#     add = []
+#     if n == 3:
+#         return star
+#     else:
+#         for i in star:
+#             add.append(i*3) # 무조건 3배씩 늘어나게 되는구나
+#         for i in star: # 각 줄당 for 문을 이용하여 따로 개행을 쓰지 않아도 됨
+#             add.append(i + ' ' * len(star) + i)
+#         for i in star:
+#             add.append(i * 3)
+#         return make_star(n//3, add)
 
-final = make_star(n,star)
-for i in final:
-    print(i)
+# final = make_star(n,star)
+# for i in final:
+#     print(i)
+
+# no recursion
+
+star = ['*' for _ in range(n*n)]
+count = 0
+for i in range(len(star)): # fill stars 
+    if i != 0:
+        if  i % n == 0:
+            star[i] = '\n*'
+
+result = ''.join(star)
+print(result)
+
+# 0, 2, 6, 8 full stars
+# 1, 7 * ** ** ** * shape
