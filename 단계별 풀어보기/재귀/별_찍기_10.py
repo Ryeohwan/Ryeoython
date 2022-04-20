@@ -49,7 +49,8 @@ for i in range(len(star)): # fill stars
     if i != 0:
         if  i % n == 0:
             star[i] = '\n*'
-
+for i in range(len(star)):
+    print('I can not solve this algo')
 result = ''.join(star)
 print(result)
 
