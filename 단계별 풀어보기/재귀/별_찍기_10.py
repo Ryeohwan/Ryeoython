@@ -1,7 +1,7 @@
 import sys
 
 n = int(sys.stdin.readline())
-star = ['***','* *','***']
+stars = ['***','* *','***']
 # 012 3 5 678 012345678 9 11
 
 # make_star(count,star,check,add,blank)
@@ -43,16 +43,49 @@ star = ['***','* *','***']
 
 # no recursion
 
-star = ['*' for _ in range(n*n)]
-count = 0
-for i in range(len(star)): # fill stars 
-    if i != 0:
-        if  i % n == 0:
-            star[i] = '\n*'
-for i in range(len(star)):
-    print('I can not solve this algo')
-result = ''.join(star)
-print(result)
+# star = ['*' for _ in range(n*n)]
+# count = 0
+# for i in range(len(star)): # fill stars 
+#     if i != 0:
+#         if  i % n == 0:
+#             star[i] = '\n*'
+# for i in range(len(star)):
+#     print('I can not solve this algo')
+# result = ''.join(star)
+# print(result)
 
 # 0, 2, 6, 8 full stars
 # 1, 7 * ** ** ** * shape
+
+
+count = 0
+while n > 3:
+    n //= 3
+    count += 1
+# n //= 3 n 에 3으로 나눈 몫을 저장해라
+
+# fill stars
+def make_star():
+    star = len(stars)
+    newstars = []
+    for i in range(star*3):
+        newstars.append(stars[i % star]*3)
+    return newstars
+
+
+# # insert blank
+# def make_star():
+#     star = len(stars)
+#     newstars = []
+#     for i in range(star*3):
+#         if i // star == 1:
+#             newstars.append(stars[i % star] + ' ' + star + stars[i % star])
+#         else:
+#             newstars.append(stars[i % star]*3)
+#     return newstars
+
+for i in range(count):
+    stars = make_star()
+
+for i in stars:
+    print(i)
