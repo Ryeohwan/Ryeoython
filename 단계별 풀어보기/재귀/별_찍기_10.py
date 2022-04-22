@@ -64,25 +64,25 @@ while n > 3:
     count += 1
 # n //= 3 n 에 3으로 나눈 몫을 저장해라
 
-# fill stars
-def make_star():
-    star = len(stars)
-    newstars = []
-    for i in range(star*3):
-        newstars.append(stars[i % star]*3)
-    return newstars
-
-
-# # insert blank
+# # fill stars
 # def make_star():
 #     star = len(stars)
 #     newstars = []
 #     for i in range(star*3):
-#         if i // star == 1:
-#             newstars.append(stars[i % star] + ' ' + star + stars[i % star])
-#         else:
-#             newstars.append(stars[i % star]*3)
+#         newstars.append(stars[i % star]*3)
 #     return newstars
+
+
+# insert blank
+def make_star():
+    star = len(stars)
+    newstars = []
+    for i in range(star*3):
+        if i // star == 1:
+            newstars.append(stars[i % star] + ' ' * star + stars[i % star])
+        else:
+            newstars.append(stars[i % star]*3)
+    return newstars
 
 for i in range(count):
     stars = make_star()
