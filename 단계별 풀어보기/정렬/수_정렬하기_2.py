@@ -48,3 +48,5 @@ def bubble_sort(list):
                 swapped = True
         if not swapped:
             break
+
+# I have to study heap and quick
