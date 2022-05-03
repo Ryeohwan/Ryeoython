@@ -32,3 +32,5 @@ def recursion(n,count):
         
 
 recursion(n,count)
+
+# I solve this problem with cnt
