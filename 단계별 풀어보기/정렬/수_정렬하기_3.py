@@ -1,8 +1,6 @@
 import sys
 n = int(sys.stdin.readline())
-list = []
-for i in range(n):
-    list.append(int(input()))
+
 
 #Let's study heap quik merge
 
@@ -47,8 +45,17 @@ def quick_sort(list):
 			pivot_list.append(value)
 	return quick_sort(front_list) + quick_sort(pivot_list) + quick_sort(back_list)
 
-for i in range(len(quick_sort(list))):
-    print(quick_sort(list)[i])
-# final = quick_sort(list)
-# for i in range(len(final)):
-#     print(final[i])
+# for i in range(len(quick_sort(list))):
+#     print(quick_sort(list)[i])
+
+# for use lower memory
+check_list = [0] * 10001
+
+for i in range(n):
+    input_num = int(sys.stdin.readline())
+    check_list[input_num] += 1  # 10001 범위의 입력받은 값을 인덱스에다가
+
+for i in range(10001):
+    if check_list[i] != 0:
+        for j in range(check_list[i]):
+            print(i)
