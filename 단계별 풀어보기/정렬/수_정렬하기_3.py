@@ -47,7 +47,8 @@ def quick_sort(list):
 			pivot_list.append(value)
 	return quick_sort(front_list) + quick_sort(pivot_list) + quick_sort(back_list)
 
-
+for i in range(len(quick_sort(list))):
+    print(quick_sort(list)[i])
 # final = quick_sort(list)
 # for i in range(len(final)):
 #     print(final[i])

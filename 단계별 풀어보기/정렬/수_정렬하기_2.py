@@ -27,6 +27,9 @@ def insert_sort(list):
             list[i - 1], list[i] = list[i], list[i-1]
             i -= 1
 
+# insert_sort(list)
+# for i in range(len(list)):
+#     print(list[i])
 
 # selection sort
 def selection_sort(list):
@@ -49,4 +52,4 @@ def bubble_sort(list):
         if not swapped:
             break
 
-# I have to study heap and quick
+# I have to study merge and quick
