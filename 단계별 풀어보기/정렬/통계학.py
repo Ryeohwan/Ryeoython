@@ -10,14 +10,19 @@ def sansul(list,n):
     sum = 0
     for i in range(len(list)):
         sum += list[i]
-    return sum // n
+    final = round(sum / n)
+    if final == -0:
+        final = 0
+    return final
 print(sansul(list,n))
 
 # middle value
-def middle_val(list,n):
+def middle_val(list):
     list.sort()
     mid = len(list)//2
+
     return list[mid]
+print(middle_val(list))
 
 # most exist
 def most_val(list):
@@ -37,6 +42,19 @@ def most_val(list):
         if new_list[i][1] == check:
             map.append(new_list[i][0])
     map.sort()
-    return map[-2]
-
+    if len(map) <= 2:
+        return map[0]
+    else:
+        return map[1]
 print(most_val(list))
+
+#range
+def range_val(list):
+    check = min(list)
+    if len(list) == 1:
+        return 0
+    else:
+        if check < 0:
+            check *= -1
+        return max(list) + check
+print(range_val(list))
