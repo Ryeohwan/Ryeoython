@@ -24,7 +24,7 @@ def middle_val(list):
     return list[mid]
 print(middle_val(list))
 
-# most exist
+# most exist I have to think about negative numbers
 def most_val(list):
     index_list = [0] * 500001
     for i in range(len(list)):
