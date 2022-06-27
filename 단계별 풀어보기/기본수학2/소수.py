@@ -10,3 +10,5 @@ a = 0
 b = 1 
 for j in range(len(pri_list)):
     print(j)
+if j is 'n':
+    print('I want to go ssafy')
