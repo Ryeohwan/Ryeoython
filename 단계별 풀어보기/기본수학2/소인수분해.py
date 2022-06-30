@@ -5,3 +5,5 @@ n = list(map(int, input().split(' ')))
 
 for i in range(n):
     print('hi')
+
+print('I will study tomorrow')
