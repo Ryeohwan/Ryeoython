@@ -7,5 +7,4 @@ for i in range(n):
     print('hi')
 
 print('I will study tomorrow')
-print('I will study')
-print('today I start java')
+print('I will study java')
