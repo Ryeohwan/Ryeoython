@@ -5,7 +5,7 @@ list = []
 for i in range(n):
     list.append(int(input()))
 
-# sansul
+# sansul calc
 def sansul(list,n):
     sum = 0
     for i in range(len(list)):
