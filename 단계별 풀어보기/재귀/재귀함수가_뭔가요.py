@@ -5,7 +5,7 @@ said_list = ['\"재귀함수가 뭔가요?\"','\"잘 들어보게. 옛날옛날 
 line = '____'
 answer_list = ['\"재귀함수가 뭔가요?\"','\"재귀함수는 자기 자신을 호출하는 함수라네\"','라고 답변하였지.']
 count = 0
-
+# add recursion
 def recursion(n,count):
     if count == 0:
         for i in range(len(said_list)):
