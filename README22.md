@@ -1,62 +1,34 @@
-# Member
+# 구해줘홈즈 5조
 
-pair7 안려환 정원철
+## 멤버
 
-## Requirements
+- 공진호
+- 안려환
 
-- 관통 프로젝트
-- 자바
-- 해피하우스
+## 메인화면
 
-## Application Structure
+| 제목                | 내용                                                                                                                                                         |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 메인페이지 html     | [index.html](https://lab.ssafy.com/s08/a19/06_whereismyhome_front/pair05_ahnryeohwan_kongjinho/-/blob/main/templated/public/index.html)               |
+| 메인 js             | [assets/js/my.js](https://lab.ssafy.com/s08/a19/06_whereismyhome_front/pair05_ahnryeohwan_kongjinho/-/blob/main/templated/public/assets/js/main.js) |
 
-- `View`: UI 역할
-- `Service`: 비즈니스 로직 구현
-- `Dao`: 데이터베이스 접근, 도메인 객체를 DB에 저장하고 관리
-- `Dto`: 비즈니스 도메인 객체
+- Usecase diagram
+  <img src="https://user-images.githubusercontent.com/62232531/188873885-4382ec3e-ab1b-42dd-b698-61d5dee6f40e.png">
 
-## 결과화면
-### 아무런 조건도 주지 않았을 경우
-![1](./WhereIsMyHome_Java_서울_19_정원철_안려환/src/readmeImg/1.png)
-
-### 동으로 조회한 경우
-![2](./WhereIsMyHome_Java_서울_19_정원철_안려환/src/readmeImg/2.png)
-
-### 아파트 이름으로 조회한 경우
-![3](./WhereIsMyHome_Java_서울_19_정원철_안려환/src/readmeImg/3.png)
+- 메인 화면  
+  <img src="https://user-images.githubusercontent.com/62232531/188873885-4382ec3e-ab1b-42dd-b698-61d5dee6f40e.png">
 
 
-### [추가 기능] 대기 환경 정보 출력
-![4](./WhereIsMyHome_Java_서울_19_정원철_안려환/src/readmeImg/4.png)
-<br/>
-원하는 주택이나 아파트를 선택하게되면 해당 구를 기반으로 대기현황이 테이블 형태로 출력
+## 검색화면
 
+| 구현 내용       | code                                                                                                                                                       |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 로그인/회원가입  | [public/assets/js/apt.js](https://lab.ssafy.com/s08/a19/06_whereismyhome_front/pair05_ahnryeohwan_kongjinho/-/blob/main/templated/public/assets/js/apt.js) |
+| 회원 정보변경  | [public/assets/js/apt.js](https://lab.ssafy.com/s08/a19/06_whereismyhome_front/pair05_ahnryeohwan_kongjinho/-/blob/main/templated/public/assets/js/apt.js) |
 
-### [심화 기능] 상권 정보 출력
-![5](./WhereIsMyHome_Java_서울_19_정원철_안려환/src/readmeImg/dif.png)
-<br/>
-기능 구현에 실패하여 csv 파일 파싱까지 한 부분 업로드 하였습니다.
-
-
-
-## 제출 소스
-| ClassName  code line No. | code                                                         |
-| ------------------------ | :----------------------------------------------------------- |
-| HouseInfoView 246~247    | ![1](./WhereIsMyHome_Java_서울_19_정원철_안려환/src/readmeImg/5.png) |
-| HouseServiceImpl 34      | ![2](./WhereIsMyHome_Java_서울_19_정원철_안려환/src/readmeImg/6.png) |
-| HouseDaoImpl  80         | ![3](./WhereIsMyHome_Java_서울_19_정원철_안려환/src/readmeImg/7.png) HouseInfo에 저장된 이미지 소스를 HouseDeal 인스턴스의 멤버 변수에 세팅 |
-| APTRentSAXHandler 28~    | ![4](./WhereIsMyHome_Java_서울_19_정원철_안려환/src/readmeImg/8.png) |
-| HouseDealSAXHandler      | ![5](./WhereIsMyHome_Java_서울_19_정원철_안려환/src/readmeImg/9.png) |
-
-
-## 추가 기능 추가한 파일
-- EnvPollution.java
-- EnvPollutionService.java
-- EnvPollutionServiceImpl.java
-- EnvPollutionImpl.java
-- 서울시 시간 평균 대기오염도 정보.csv
-
-## 심화 기능 추가한 파일
-- ConvenientCSVparser.java
-- Convenient.java
-- convenient.csv
+- 로그인/ 회원가입 기능 
+  <img src="https://user-images.githubusercontent.com/62232531/188877823-a5f34d12-ab05-4610-9209-e1e7464a104e.png">
+- 회원 정보 변경 기능  
+  <img src="https://user-images.githubusercontent.com/62232531/188878037-c78e5e02-0c22-4d99-8231-463189a50417.png">
+- 회원 정보 변경 기능  
+  <img src="https://user-images.githubusercontent.com/62232531/188878037-c78e5e02-0c22-4d99-8231-463189a50417.png">
