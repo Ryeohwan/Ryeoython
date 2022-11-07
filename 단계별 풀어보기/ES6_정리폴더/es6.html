@@ -9,14 +9,20 @@
   </head>
   <body>
     <script>
-      const user = {
-        id: "ssafy",
-        name: "안려환",
-        age: 20,
-      };
-
-      let { id, name, age } = user;
-      console.log(id, name, age);
+      function getUserId(userId = "ssafy9") {
+        return userId;
+      }
+      console.log(getUserId());
+      console.log(getUserId(undefined));
+      console.log(getUserId(null));
+      console.log(getUserId("troment"));
+      // default parameter각 reference type일 경우 호출될 때마다 새로운 객체를 생성함.
+      function appendArr(val, array = []) {
+        array.push(val);
+        return array;
+      }
+      console.log(appendArr(10)); // [10]
+      console.log(appendArr(20)); // [20] or [10, 20] ??
     </script>
   </body>
 </html>
