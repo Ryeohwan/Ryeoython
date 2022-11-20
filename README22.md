@@ -73,7 +73,7 @@ new SecVO(memberModel.getId(),UUID.randomUUID().toString(),OpenCrypt.byteArrayTo
 	}
 ```
 
-sha-256 알고리즘으로 암호화된 pw 값의 길이가 너무 길기 때문에
+sha-256 알고리즘으로 암호화된 pw 값의 길이가 길기 때문에
 저장할 땐 byte array 값을 Hex로 바꿔서 db에 저장을 해주었습니다.
 
 `String pw = OpenCrypt.byteArrayToHex(OpenCrypt.getSHA256(memberModel.getPw(), sec.getSalt())); memberModel.setPw(pw); `
