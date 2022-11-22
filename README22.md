@@ -35,7 +35,7 @@
 
 <img src="https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/raw/main/img/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85.PNG">
 
-- 회원 중복체크
+- 회원 중복체크 성공
 
 <img src="https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/raw/main/img/%ED%9A%8C%EC%9B%90%EC%A4%91%EB%B3%B5%EC%B2%B4%ED%81%AC.PNG">
 
