@@ -11,3 +11,4 @@ for i in range(10001):
     if array[i] != 0:
         for j in range(array[i]):
             print(i)
+# code start
