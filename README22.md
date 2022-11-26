@@ -39,7 +39,7 @@
 
 <img src="https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/raw/main/img/%ED%9A%8C%EC%9B%90%EC%A4%91%EB%B3%B5%EC%B2%B4%ED%81%AC.PNG">
 
-- 회원 가입 성공
+- 회원 가입 성공!!
 
 <img src="https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/raw/main/img/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%20%EC%84%B1%EA%B3%B5.PNG">
 
