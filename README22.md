@@ -27,7 +27,7 @@
 | main html (메인,로그인 포함)          | [WebContent/index.html](https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/blob/main/WebContent/index.html)                                 |
 | memberInsertForm html (회원가입 화면) | [WebContent/memberInsertForm.html](https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/blob/main/WebContent/memberInsertForm.html)           |
 
-- 로그인 기능
+- 로그인 기능!!
 
 <img src="https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/raw/main/img/%EB%A1%9C%EA%B7%B8%EC%9D%B8%EC%84%B1%EA%B3%B5.PNG">
 
