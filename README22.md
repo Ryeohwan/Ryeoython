@@ -43,7 +43,7 @@
 
 <img src="https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/raw/main/img/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%20%EC%84%B1%EA%B3%B5.PNG">
 
-- 암호화 돼 저장된 pw (sha-26)와 name(aes) 값
+- 암호화 돼 저장된 pw (sha-26)와 name(aes) 값!!
 
 <img src="https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/raw/main/img/salt_db.PNG">
 
