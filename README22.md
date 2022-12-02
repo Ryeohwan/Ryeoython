@@ -23,7 +23,7 @@
 | memberDao                             | [src/member/dao/MemberDao.java](https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/blob/main/src/member/dao/MemberDao.java)                 |
 | member(dto)                           | [src/member/dto/Member.java](https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/blob/main/src/member/dto/Member.java)                       |
 | SecVO(dto)                            | [src/member/dto/SecVO.java](https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/blob/main/src/member/dto/SecVO.java)                         |
-| methods                               | [src/member/service/MemberService.java](https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/blob/main/src/member/service/MemberService.java) |
+| methods(관련 메소드)                     | [src/member/service/MemberService.java](https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/blob/main/src/member/service/MemberService.java) |
 | main html (메인,로그인 포함)          | [WebContent/index.html](https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/blob/main/WebContent/index.html)                                 |
 | memberInsertForm html (회원가입 화면) | [WebContent/memberInsertForm.html](https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/blob/main/WebContent/memberInsertForm.html)           |
 
