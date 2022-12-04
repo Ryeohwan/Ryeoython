@@ -13,7 +13,7 @@
 | 메인 js         | [WebContent/js/my.js](https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/blob/main/WebContent/js/my.js)     |
 | 회원가입 js     | [WebContent/js/join.js](https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/blob/main/WebContent/js/join.js) |
 
-- 메인 화면  
+- 메인 화면!
   <img src="https://lab.ssafy.com/s08/a19/10_whereismyhome_algo/pair11_ahnryeohwan_leeyeeun/-/raw/main/img/%EB%A9%94%EC%9D%B8%ED%99%94%EB%A9%B4.PNG">
 
 ## 구현화면
